@@ -1,0 +1,26 @@
+footer{
+    margin-top: 95px;
+    height: 100px;
+    .footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        .logo_text_footer {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 48px;
+            .text_footer {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                color: #6F6C90;
+            }
+        }
+        
+    }
+}

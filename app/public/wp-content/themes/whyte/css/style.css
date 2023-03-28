@@ -1,0 +1,2043 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+body {
+  background-color: #EFF0F6;
+}
+
+.site-main {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-main .text_banner {
+  position: absolute;
+  top: 27%;
+  left: 10%;
+  width: 35%;
+}
+
+.site-main .text_banner .title {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 110px;
+  line-height: 1;
+  padding-bottom: 10px;
+}
+
+.site-main .text_banner .title span {
+  color: #40FF8D;
+}
+
+.site-main .text_banner .subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.site-main .text_banner .button {
+  background-color: #40FF8D;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px 0;
+  width: 50%;
+  color: #000;
+}
+
+.site-main .text_banner .button a {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.site-main .text_banner .button a:hover {
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -6px;
+}
+
+.main .partner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #4B09B2;
+  width: 100%;
+}
+
+.main .partner .partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 85px 0;
+  width: 80%;
+}
+
+.main .partner .partners .title {
+  font-family: 'Lato', sans-serif;
+  font-size: 110px;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+}
+
+.main .partner .partners .our_partners {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  padding: 64px;
+  border-radius: 20px;
+}
+
+.main .partner .partners .our_partners .title_logo_partners {
+  font-size: 20px;
+  color: #667085;
+  padding-bottom: 32px;
+}
+
+.main .partner .partners .our_partners .logo_partners {
+  gap: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .wrapper {
+  width: 80%;
+}
+
+.main .wrapper .why_with_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 67px;
+}
+
+.main .wrapper .why_with_us .title_accordion {
+  width: 48%;
+}
+
+.main .wrapper .why_with_us .title_accordion .title {
+  font-family: 'Lato', sans-serif;
+  color: #4B09B2;
+  font-size: 110px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 110px;
+}
+
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item {
+  margin-bottom: 24px;
+  border-radius: 0.25rem;
+}
+
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item:not(.accordion__item_show) .accordion__header {
+  border-radius: 20px;
+}
+
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
+}
+
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item .accordion__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.75rem 1rem;
+  color: #6F6C90;
+  font-weight: 500;
+  background-color: #FFF;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 25px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item .accordion__header::after {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-left: auto;
+  content: ">";
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item .accordion__header img {
+  padding-right: 15px;
+}
+
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item .accordion__body .accordion__content {
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item_show .accordion__header::after,
+.main .wrapper .why_with_us .title_accordion #accordion .accordion__item_slidedown .accordion__header::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.main .wrapper .why_with_us .analytics {
+  width: 48%;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item {
+  margin-bottom: 24px;
+  border-radius: 0.25rem;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item:not(.accordion__item_show) .accordion__header {
+  border-radius: 20px;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item .accordion__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.75rem 1rem;
+  color: #6F6C90;
+  font-weight: 500;
+  background-color: #FFF;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 25px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 400;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item .accordion__header::after {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  content: ">";
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item .accordion__header img {
+  padding-right: 15px;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item .accordion__header .text .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 15px;
+  color: #170F49;
+  font-size: 20px;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item .accordion__body .accordion__content {
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item_show .accordion__header::after,
+.main .wrapper .why_with_us .analytics .text_analytics #accordion_analytics .accordion__item_slidedown .accordion__header::after {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments {
+  width: 95%;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .histograma {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .progressbar {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 48%;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .progressbar .title_semicircle {
+  padding: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .progressbar .title_semicircle .title {
+  padding-bottom: 28px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .progressbar .title_semicircle .container {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .progressbar .title_semicircle .container .circle-container {
+  width: 170px;
+  height: 120px;
+  -webkit-transform: rotate(-200deg);
+          transform: rotate(-200deg);
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 75 100;
+  stroke-linecap: round;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .progressbar .title_semicircle .container .circle-container .circle-container__background {
+  fill: none;
+  stroke: gainsboro;
+  stroke-width: 3px;
+  stroke-dasharray: 60 100;
+  stroke-linecap: round;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .progressbar .title_semicircle .container .circle-container .circle-container__progress {
+  fill: none;
+  stroke-linecap: round;
+  stroke: #4B09B2;
+  stroke-dasharray: 60 100;
+  stroke-linecap: round;
+  stroke-width: 3px;
+  -webkit-transition: stroke-dashoffset 1s ease-in-out;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .progressbar .title_semicircle .container .subtitle {
+  text-align: center;
+  margin-top: -23px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .text {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 48%;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .text .title {
+  padding: 13px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .text .comments {
+  padding: 0 13px 13px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .text .comments .text_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .text .comments .text_logo .logo {
+  padding-right: 5px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .text .comments .text_logo .name_comment .name {
+  font-size: 15px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .graphics .graphics_and_comments .progress_and_text .text .comments .text_logo .name_comment .comment {
+  font-size: 12px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments {
+  width: 50%;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text {
+  padding: 20px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .title {
+  padding-bottom: 30px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress {
+  width: 200px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_big {
+  position: relative;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_big .circle-container {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(-115deg);
+          transform: rotate(-115deg);
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_big .circle-container .circle-container__background {
+  fill: none;
+  stroke: #EFF0F6;
+  stroke-width: 2.5px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_big .circle-container .circle-container__progress {
+  fill: none;
+  stroke-linecap: round;
+  stroke: #4B09B2;
+  stroke-dasharray: 100 100;
+  stroke-linecap: round;
+  stroke-width: 2.5px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_medium {
+  position: relative;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_medium .circle-container {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  top: 25px;
+  left: 12%;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_medium .circle-container .circle-container__background {
+  fill: none;
+  stroke: #EFF0F6;
+  stroke-width: 3px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_medium .circle-container .circle-container__progress {
+  fill: none;
+  stroke-linecap: round;
+  stroke: #40FF8D;
+  stroke-dasharray: 100 100;
+  stroke-linecap: round;
+  stroke-width: 3px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_small {
+  position: relative;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_small .circle-container {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  top: 50px;
+  left: 50px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_small .circle-container .circle-container__background {
+  fill: none;
+  stroke: #EFF0F6;
+  stroke-width: 4px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .circle .circle_progress .progress_small .circle-container .circle-container__progress {
+  fill: none;
+  stroke-linecap: round;
+  stroke: #4B09B2;
+  stroke-dasharray: 100 100;
+  stroke-linecap: round;
+  stroke-width: 4px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .comments .comment .logo_text .logo_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .comments .comment .logo_text .logo_name .logo {
+  padding-right: 5px;
+}
+
+.main .wrapper .why_with_us .analytics .graphics_progress .progress_comments .circle_text .comments .comment .subtitle {
+  font-size: 14px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item {
+  margin-bottom: 24px;
+  border-radius: 0.25rem;
+}
+
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item:not(.accordion__item_show) .accordion__header {
+  border-radius: 20px;
+}
+
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
+}
+
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item .accordion__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.75rem 1rem;
+  color: #6F6C90;
+  font-weight: 500;
+  background-color: #FFF;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 25px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item .accordion__header::after {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  content: ">";
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item .accordion__header img {
+  padding-right: 15px;
+}
+
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item .accordion__body .accordion__content {
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item_show .accordion__header::after,
+.main .wrapper .why_with_us .analytics .lower_accordion #lower_accordion .accordion__item_slidedown .accordion__header::after {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.main .wrapper .socials {
+  background-color: #4B09B2;
+  border-radius: 20px;
+}
+
+.main .wrapper .socials .our_socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+.main .wrapper .socials .our_socials .title_logo_socials {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.main .wrapper .socials .our_socials .logo_socials img {
+  margin: 0 1.6rem;
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .one_steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.main .wrapper .container_steps .steps .one_steps .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .container_steps .steps .one_steps .step .info_step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.main .wrapper .container_steps .steps .one_steps .step .info_step .number_step {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #4b09b22b;
+  font-size: 200px;
+  padding-right: 20px;
+}
+
+.main .wrapper .container_steps .steps .one_steps .step .info_step .text_step .title {
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  color: #4B09B2;
+  font-weight: 900;
+}
+
+.main .wrapper .container_steps .steps .one_steps .step .info_step .text_step .subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .one_steps .step .logo_step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .wrapper .container_steps .steps .one_steps .step .logo_step .line_down {
+    border-left: 5px dashed #40FF8D;
+    text-align: center;
+    height: 57px;
+    margin-top: -55px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .main .wrapper .container_steps .steps .one_steps .step .logo_step .line_down {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .one_steps .line {
+    width: 59.5%;
+    margin-left: -21px;
+    border-bottom: 5px dashed #40FF8D;
+  }
+}
+
+@media (max-width: 1439px) {
+  .main .wrapper .container_steps .steps .one_steps .line {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .two_steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.main .wrapper .container_steps .steps .two_steps .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .container_steps .steps .two_steps .step .info_step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.main .wrapper .container_steps .steps .two_steps .step .info_step .number_step {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #4b09b22b;
+  font-size: 200px;
+  padding-right: 20px;
+}
+
+.main .wrapper .container_steps .steps .two_steps .step .info_step .text_step .title {
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  color: #4B09B2;
+  font-weight: 900;
+}
+
+.main .wrapper .container_steps .steps .two_steps .step .info_step .text_step .subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .two_steps .step .logo_step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .wrapper .container_steps .steps .two_steps .step .logo_step .line_up {
+    border-left: 5px dashed #40FF8D;
+    text-align: center;
+    height: 57px;
+  }
+  .main .wrapper .container_steps .steps .two_steps .step .logo_step img {
+    margin-top: -45px;
+  }
+  .main .wrapper .container_steps .steps .two_steps .step .logo_step .line_down {
+    border-left: 5px dashed #40FF8D;
+    text-align: center;
+    height: 57px;
+    margin-top: -45px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .main .wrapper .container_steps .steps .two_steps .step .logo_step .line_up {
+    display: none;
+  }
+  .main .wrapper .container_steps .steps .two_steps .step .logo_step img {
+    margin-top: 0;
+  }
+  .main .wrapper .container_steps .steps .two_steps .step .logo_step .line_down {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .two_steps .line {
+    width: 60.9%;
+    margin-left: -5px;
+    border-bottom: 5px dashed #40FF8D;
+  }
+}
+
+@media (max-width: 1439px) {
+  .main .wrapper .container_steps .steps .two_steps .line {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .three_steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.main .wrapper .container_steps .steps .three_steps .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .container_steps .steps .three_steps .step .info_step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.main .wrapper .container_steps .steps .three_steps .step .info_step .number_step {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #4b09b22b;
+  font-size: 200px;
+  padding-right: 20px;
+}
+
+.main .wrapper .container_steps .steps .three_steps .step .info_step .text_step .title {
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  color: #4B09B2;
+  font-weight: 900;
+}
+
+.main .wrapper .container_steps .steps .three_steps .step .info_step .text_step .subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .three_steps .step .logo_step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .wrapper .container_steps .steps .three_steps .step .logo_step .line_up {
+    border-left: 5px dashed #40FF8D;
+    text-align: center;
+    height: 57px;
+  }
+  .main .wrapper .container_steps .steps .three_steps .step .logo_step img {
+    margin-top: -45px;
+  }
+  .main .wrapper .container_steps .steps .three_steps .step .logo_step .line_down {
+    border-left: 5px dashed #40FF8D;
+    text-align: center;
+    height: 57px;
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .main .wrapper .container_steps .steps .three_steps .step .logo_step .line_up {
+    display: none;
+  }
+  .main .wrapper .container_steps .steps .three_steps .step .logo_step img {
+    margin-top: 0;
+  }
+  .main .wrapper .container_steps .steps .three_steps .step .logo_step .line_down {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .three_steps .line {
+    width: 60.6%;
+    margin-left: -1px;
+    border-bottom: 5px dashed #40FF8D;
+  }
+}
+
+@media (max-width: 1439px) {
+  .main .wrapper .container_steps .steps .three_steps .line {
+    display: none;
+  }
+}
+
+.main .wrapper .container_steps .steps .four_steps .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .container_steps .steps .four_steps .step .info_step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.main .wrapper .container_steps .steps .four_steps .step .info_step .number_step {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #4b09b22b;
+  font-size: 200px;
+  padding-right: 20px;
+}
+
+.main .wrapper .container_steps .steps .four_steps .step .info_step .text_step .title {
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  color: #4B09B2;
+  font-weight: 900;
+}
+
+.main .wrapper .container_steps .steps .four_steps .step .info_step .text_step .subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+}
+
+@media (max-width: 1440px) {
+  .main .wrapper .container_steps .steps .four_steps .step .logo_step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .wrapper .container_steps .steps .four_steps .step .logo_step .line_up {
+    border-left: 5px dashed #40FF8D;
+    text-align: center;
+    height: 57px;
+  }
+  .main .wrapper .container_steps .steps .four_steps .step .logo_step img {
+    margin-top: -45px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .main .wrapper .container_steps .steps .four_steps .step .logo_step .line_up {
+    display: none;
+  }
+  .main .wrapper .container_steps .steps .four_steps .step .logo_step img {
+    margin-top: 0;
+  }
+}
+
+.main .wrapper .tabs_what_we_offer {
+  margin-top: 200px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .title {
+  font-family: 'Lato', sans-serif;
+  color: #4B09B2;
+  font-size: 110px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .tabs {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-grid-columns: (150px)[7];
+      grid-template-columns: repeat(7, 150px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .tabs .tab {
+  background-color: #fff;
+  padding: 20px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panels {
+  overflow: hidden;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel {
+  margin-top: 170px;
+  display: none;
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container {
+  width: 48%;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text {
+  border-bottom: 1px solid #D9DBE9;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .panel-price {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4B09B2;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .panel-price::before {
+  content: "⸺";
+  color: #4B09B2;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .panel-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .panel-title .panel-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button .button_started {
+  background-color: #4B09B2;
+  border-radius: 100px;
+  border: 1px solid #4B09B2;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button .button_started a {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 18px 40px;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button .button_started a:hover {
+  color: #4B09B2;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button .button_started:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: transparent;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button .button_learn {
+  background-color: transparent;
+  border-radius: 100px;
+  border: 1px solid #4B09B2;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-left: 25px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button .button_learn a {
+  color: #4B09B2;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 18px 40px;
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button .button_learn a:hover {
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .text .button .button_learn:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #4B09B2;
+  border: 1px solid #fff;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .logo {
+  margin-top: 95px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .logo .title_logo {
+  color: #170F49;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .right-container .logo .logo_google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .left-container {
+  width: 48%;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .left-container .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .left-container .image .main_image {
+  position: relative;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .left-container .image .sub_image {
+  width: 40%;
+  position: absolute;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .left-container .image .sub_image .sub_image_calendar .calendar {
+  margin-top: 35px;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .panel .left-container .image .sub_image .sub_image_blog .blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs .radio {
+  display: none;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #one:checked ~ .panels #one-panel,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #two:checked ~ .panels #two-panel,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #three:checked ~ .panels #three-panel,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #four:checked ~ .panels #four-panel,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #five:checked ~ .panels #five-panel,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #six:checked ~ .panels #six-panel,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #seven:checked ~ .panels #seven-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #one:checked ~ .tabs #one-tab,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #two:checked ~ .tabs #two-tab,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #three:checked ~ .tabs #three-tab,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #four:checked ~ .tabs #four-tab,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #five:checked ~ .tabs #five-tab,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #six:checked ~ .tabs #six-tab,
+.main .wrapper .tabs_what_we_offer .what_we_offer .warpper_tabs #seven:checked ~ .tabs #seven-tab {
+  border: 1px solid #4B09B2;
+}
+
+.main .wrapper .testimonials {
+  margin-top: 200px;
+}
+
+.main .wrapper .testimonials .title {
+  font-family: 'Lato', sans-serif;
+  color: #4B09B2;
+  font-size: 110px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: left;
+}
+
+.main .wrapper .testimonials .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .wrapper .testimonials .content .left_content {
+  position: relative;
+}
+
+.main .wrapper .testimonials .content .left_content .webflow .webflow_logo_text {
+  background-color: #fdfefffa;
+  border-radius: 15px;
+  padding: 30px 60px;
+  -webkit-box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+          box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+}
+
+.main .wrapper .testimonials .content .left_content .webflow .webflow_logo_text .logo {
+  padding-bottom: 23px;
+}
+
+.main .wrapper .testimonials .content .left_content .webflow .webflow_logo_text .subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #514F6E;
+}
+
+.main .wrapper .testimonials .content .left_content .webflow .webflow_logo_text .comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+.main .wrapper .testimonials .content .left_content .webflow .webflow_logo_text .comments .name_profession {
+  padding-left: 20px;
+}
+
+.main .wrapper .testimonials .content .left_content .webflow .webflow_logo_text .comments .name_profession .name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  color: #170F49;
+}
+
+.main .wrapper .testimonials .content .left_content .webflow .webflow_logo_text .comments .name_profession .profession {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6F6C90;
+}
+
+.main .wrapper .testimonials .content .right_content {
+  margin-left: -58px;
+}
+
+.main .wrapper .testimonials .content .right_content .airtable {
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.main .wrapper .testimonials .content .right_content .airtable .airtable_logo_text {
+  background-color: #fdfefffa;
+  border-radius: 15px;
+  padding: 30px 60px;
+  -webkit-box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+          box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+}
+
+.main .wrapper .testimonials .content .right_content .airtable .airtable_logo_text .logo {
+  padding-bottom: 23px;
+}
+
+.main .wrapper .testimonials .content .right_content .airtable .airtable_logo_text .subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #514F6E;
+}
+
+.main .wrapper .testimonials .content .right_content .airtable .airtable_logo_text .comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+.main .wrapper .testimonials .content .right_content .airtable .airtable_logo_text .comments .name_profession {
+  padding-left: 20px;
+}
+
+.main .wrapper .testimonials .content .right_content .airtable .airtable_logo_text .comments .name_profession .name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  color: #170F49;
+}
+
+.main .wrapper .testimonials .content .right_content .airtable .airtable_logo_text .comments .name_profession .profession {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6F6C90;
+}
+
+.main .wrapper .testimonials .content .right_content .zapier .zapier_logo_text {
+  background-color: #fdfefffa;
+  border-radius: 15px;
+  padding: 30px 60px;
+  -webkit-box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+          box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+}
+
+.main .wrapper .testimonials .content .right_content .zapier .zapier_logo_text .logo {
+  padding-bottom: 23px;
+}
+
+.main .wrapper .testimonials .content .right_content .zapier .zapier_logo_text .subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #514F6E;
+}
+
+.main .wrapper .testimonials .content .right_content .zapier .zapier_logo_text .comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+.main .wrapper .testimonials .content .right_content .zapier .zapier_logo_text .comments .name_profession {
+  padding-left: 20px;
+}
+
+.main .wrapper .testimonials .content .right_content .zapier .zapier_logo_text .comments .name_profession .name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  color: #170F49;
+}
+
+.main .wrapper .testimonials .content .right_content .zapier .zapier_logo_text .comments .name_profession .profession {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6F6C90;
+}
+
+.main .wrapper .newsletter {
+  background-color: #4B09B2;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.main .wrapper .newsletter .text_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.main .wrapper .newsletter .text_input .title_newsletter {
+  width: 56%;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.main .wrapper .newsletter .text_input .input_button {
+  width: 30%;
+}
+
+.main .wrapper .newsletter .text_input .input_button .form-control {
+  position: relative;
+  margin: 30px 0 20px;
+}
+
+.main .wrapper .newsletter .text_input .input_button .form-control .input {
+  border-radius: 50px;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 28px;
+  width: 100%;
+}
+
+.main .wrapper .newsletter .text_input .input_button .form-control .input:focus {
+  outline: 0;
+}
+
+.main .wrapper .newsletter .text_input .input_button .form-control .btn {
+  background: #4B09B2;
+  -webkit-box-shadow: 0px 3px 12px rgba(74, 58, 255, 0.18);
+          box-shadow: 0px 3px 12px rgba(74, 58, 255, 0.18);
+  border-radius: 56px;
+  color: #fff;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 16px 30px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.main .wrapper .newsletter .text_input .input_button .form-control .btn:focus {
+  outline: 0;
+}
+
+.main .wrapper .touch {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .touch .text {
+  width: 48%;
+  margin-top: 100px;
+}
+
+.main .wrapper .touch .text .title {
+  font-family: 'Lato', sans-serif;
+  color: #4B09B2;
+  font-size: 110px;
+  font-weight: 600;
+  line-height: 132px;
+  text-align: left;
+}
+
+.main .wrapper .touch .text .subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: #6F6C90;
+  margin-top: 12px;
+}
+
+.main .wrapper .touch .forms {
+  width: 48%;
+  background-color: #fdfefffa;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+          box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+}
+
+.main .wrapper .touch .forms .wpcf7-form {
+  border: none;
+  overflow: inherit;
+}
+
+.main .wrapper .touch .forms .wpcf7-form .fieldset-cf7mls {
+  padding: 0px 45px;
+}
+
+.main .wrapper .touch .forms .contact .contact-detais {
+  border-top: 1px solid #D9DBE9;
+  padding-top: 54px;
+}
+
+.main .wrapper .touch .forms .contact .contact-detais .contact-detais-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #170F49;
+}
+
+.main .wrapper .touch .forms .contact .contact-detais .contact-detais-title p {
+  margin-bottom: 7px;
+}
+
+.main .wrapper .touch .forms .contact .contact-detais .contact-detais-subtitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.main .wrapper .touch .forms .contact .contact-detais .contact-detais-subtitle p {
+  margin-bottom: 34px;
+}
+
+.main .wrapper .touch .forms .contact .contact-form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 48% 48%;
+      grid-template-columns: 48% 48%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .wrapper .touch .forms .contact .contact-form input[type="text"], .main .wrapper .touch .forms .contact .contact-form input[type="email"], .main .wrapper .touch .forms .contact .contact-form input[type="url"], .main .wrapper .touch .forms .contact .contact-form input[type="password"], .main .wrapper .touch .forms .contact .contact-form input[type="search"], .main .wrapper .touch .forms .contact .contact-form input[type="number"], .main .wrapper .touch .forms .contact .contact-form input[type="tel"], .main .wrapper .touch .forms .contact .contact-form input[type="range"], .main .wrapper .touch .forms .contact .contact-form input[type="date"], .main .wrapper .touch .forms .contact .contact-form input[type="month"], .main .wrapper .touch .forms .contact .contact-form input[type="week"], .main .wrapper .touch .forms .contact .contact-form input[type="time"], .main .wrapper .touch .forms .contact .contact-form input[type="datetime"], .main .wrapper .touch .forms .contact .contact-form input[type="datetime-local"], .main .wrapper .touch .forms .contact .contact-form input[type="color"], .main .wrapper .touch .forms .contact .contact-form textarea {
+  border: 1px solid #EFF0F7;
+  -webkit-box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+          box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+  border-radius: 46px;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 17px;
+  width: 98%;
+}
+
+.main .wrapper .touch .forms .contact .contact-form input[type="text"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="email"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="url"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="password"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="search"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="number"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="tel"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="range"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="date"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="month"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="week"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="time"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="datetime"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="datetime-local"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="color"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form textarea::-webkit-input-placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6F6C90;
+  padding: 20px 0;
+}
+
+.main .wrapper .touch .forms .contact .contact-form input[type="text"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="email"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="url"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="password"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="search"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="number"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="tel"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="range"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="date"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="month"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="week"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="time"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="datetime"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="datetime-local"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="color"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form textarea:-ms-input-placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6F6C90;
+  padding: 20px 0;
+}
+
+.main .wrapper .touch .forms .contact .contact-form input[type="text"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="email"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="url"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="password"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="search"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="number"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="tel"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="range"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="date"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="month"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="week"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="time"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="datetime"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="datetime-local"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="color"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form textarea::-ms-input-placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6F6C90;
+  padding: 20px 0;
+}
+
+.main .wrapper .touch .forms .contact .contact-form input[type="text"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="email"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="url"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="password"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="search"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="number"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="tel"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="range"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="date"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="month"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="week"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="time"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="datetime"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="datetime-local"]::placeholder, .main .wrapper .touch .forms .contact .contact-form input[type="color"]::placeholder, .main .wrapper .touch .forms .contact .contact-form textarea::placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6F6C90;
+  padding: 20px 0;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #170F49;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .name input[type="text"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="email"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="url"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="password"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="search"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="number"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="tel"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="range"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="date"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="month"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="week"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="time"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="datetime"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="datetime-local"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="color"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name textarea::-webkit-input-placeholder {
+  background: url(../img/user.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .name input[type="text"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="email"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="url"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="password"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="search"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="number"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="tel"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="range"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="date"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="month"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="week"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="time"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="datetime"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="datetime-local"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="color"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name textarea:-ms-input-placeholder {
+  background: url(../img/user.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .name input[type="text"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="email"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="url"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="password"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="search"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="number"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="tel"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="range"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="date"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="month"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="week"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="time"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="datetime"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="datetime-local"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="color"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .name textarea::-ms-input-placeholder {
+  background: url(../img/user.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .name input[type="text"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="email"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="url"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="password"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="search"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="number"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="tel"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="range"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="date"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="month"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="week"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="time"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="datetime"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="datetime-local"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name input[type="color"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .name textarea::placeholder {
+  background: url(../img/user.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .email {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #170F49;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .email input[type="text"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="email"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="url"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="password"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="search"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="number"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="tel"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="range"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="date"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="month"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="week"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="time"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="datetime"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="datetime-local"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="color"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email textarea::-webkit-input-placeholder {
+  background: url(../img/mail.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .email input[type="text"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="email"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="url"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="password"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="search"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="number"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="tel"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="range"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="date"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="month"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="week"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="time"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="datetime"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="datetime-local"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="color"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email textarea:-ms-input-placeholder {
+  background: url(../img/mail.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .email input[type="text"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="email"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="url"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="password"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="search"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="number"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="tel"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="range"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="date"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="month"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="week"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="time"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="datetime"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="datetime-local"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="color"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .email textarea::-ms-input-placeholder {
+  background: url(../img/mail.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .email input[type="text"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="email"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="url"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="password"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="search"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="number"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="tel"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="range"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="date"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="month"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="week"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="time"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="datetime"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="datetime-local"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email input[type="color"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .email textarea::placeholder {
+  background: url(../img/mail.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .number {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #170F49;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .number input[type="text"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="email"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="url"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="password"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="search"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="number"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="tel"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="range"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="date"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="month"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="week"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="time"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="datetime"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="datetime-local"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="color"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number textarea::-webkit-input-placeholder {
+  background: url(../img/phone.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .number input[type="text"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="email"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="url"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="password"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="search"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="number"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="tel"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="range"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="date"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="month"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="week"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="time"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="datetime"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="datetime-local"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="color"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number textarea:-ms-input-placeholder {
+  background: url(../img/phone.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .number input[type="text"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="email"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="url"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="password"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="search"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="number"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="tel"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="range"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="date"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="month"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="week"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="time"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="datetime"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="datetime-local"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="color"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .number textarea::-ms-input-placeholder {
+  background: url(../img/phone.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .number input[type="text"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="email"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="url"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="password"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="search"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="number"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="tel"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="range"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="date"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="month"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="week"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="time"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="datetime"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="datetime-local"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number input[type="color"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .number textarea::placeholder {
+  background: url(../img/phone.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .company {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #170F49;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .company input[type="text"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="email"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="url"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="password"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="search"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="number"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="tel"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="range"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="date"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="month"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="week"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="time"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="datetime"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="datetime-local"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="color"]::-webkit-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company textarea::-webkit-input-placeholder {
+  background: url(../img/company.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .company input[type="text"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="email"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="url"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="password"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="search"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="number"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="tel"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="range"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="date"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="month"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="week"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="time"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="datetime"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="datetime-local"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="color"]:-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company textarea:-ms-input-placeholder {
+  background: url(../img/company.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .company input[type="text"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="email"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="url"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="password"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="search"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="number"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="tel"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="range"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="date"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="month"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="week"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="time"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="datetime"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="datetime-local"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="color"]::-ms-input-placeholder, .main .wrapper .touch .forms .contact .contact-form .company textarea::-ms-input-placeholder {
+  background: url(../img/company.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .touch .forms .contact .contact-form .company input[type="text"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="email"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="url"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="password"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="search"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="number"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="tel"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="range"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="date"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="month"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="week"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="time"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="datetime"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="datetime-local"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company input[type="color"]::placeholder, .main .wrapper .touch .forms .contact .contact-form .company textarea::placeholder {
+  background: url(../img/company.png) no-repeat;
+  background-position: right;
+}
+
+.main .wrapper .faq {
+  margin-top: 35px;
+}
+
+.main .wrapper .faq .content_accordion_faq .title {
+  font-family: 'Lato', sans-serif;
+  color: #4B09B2;
+  font-size: 110px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 48px;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-columns: 49% 49%;
+      grid-template-columns: 49% 49%;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item {
+  margin-bottom: 24px;
+  border-radius: 0.25rem;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item:not(.accordion__item_show) .accordion__header {
+  border-radius: 20px;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item .accordion__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.75rem 1rem;
+  color: #6F6C90;
+  font-weight: 500;
+  background-color: #FFF;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 40px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #170F49;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item .accordion__header::after {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  content: "+";
+  background-color: #f7f7ff;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #7d7b9b;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item .accordion__header img {
+  padding-right: 15px;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item .accordion__body .accordion__content {
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item_show .accordion__header::after,
+.main .wrapper .faq .content_accordion_faq #faq_accordion .accordion__item_slidedown .accordion__header::after {
+  content: "-";
+  background-color: #40FF8D;
+  color: #F7F7FF;
+}
+/*# sourceMappingURL=style.css.map */
